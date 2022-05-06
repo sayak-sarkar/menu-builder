@@ -1,4 +1,4 @@
-import data from "../../../menu-data.test.json";
+import data from "../../menu-data.test.json";
 import { shallowMount } from "@vue/test-utils";
 import Menu from "@/views/Menu.vue";
 

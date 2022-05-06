@@ -1,0 +1,175 @@
+{
+    "common": {
+        "input": {
+            "items": [
+                {"id": 1, "name": "Company", "parentId": null, "isHidden": false},
+                {"id": 10, "name": "References", "parentId": null, "isHidden": false},
+                {"id": 14, "name": "Prices", "parentId": null, "isHidden": false},
+                {"id": 2, "name": "About Us", "parentId": 1, "isHidden": false},
+                {"id": 11, "name": "Contact", "parentId": 1, "isHidden": false},
+                {"id": 3, "name": "Mission", "parentId": 1, "isHidden": false},
+                {"id": 4, "name": "Team", "parentId": 2, "isHidden": false},
+                {"id": 12, "name": "Goals", "parentId": 3, "isHidden": false},
+                {"id": 13, "name": "2021", "parentId": 12, "isHidden": false},
+                {"id": 5, "name": "Client 2", "parentId": 10, "isHidden": false},
+                {"id": 6, "name": "Client 1", "parentId": 10, "isHidden": false},
+                {"id": 7, "name": "Client 4", "parentId": 10, "isHidden": true},
+                {"id": 8, "name": "Client 5", "parentId": 20, "isHidden": false}
+            ]
+        },
+        "output": {
+            "render": [
+                {"id": 1, "name": "Company", "parentId": null, "isHidden": false},
+                {"id": 10, "name": "References", "parentId": null, "isHidden": false},
+                {"id": 14, "name": "Prices", "parentId": null, "isHidden": false},
+                {"id": 2, "name": "About Us", "parentId": 1, "isHidden": false},
+                {"id": 11, "name": "Contact", "parentId": 1, "isHidden": false},
+                {"id": 3, "name": "Mission", "parentId": 1, "isHidden": false},
+                {"id": 4, "name": "Team", "parentId": 2, "isHidden": false},
+                {"id": 12, "name": "Goals", "parentId": 3, "isHidden": false},
+                {"id": 13, "name": "2021", "parentId": 12, "isHidden": false},
+                {"id": 5, "name": "Client 2", "parentId": 10, "isHidden": false},
+                {"id": 6, "name": "Client 1", "parentId": 10, "isHidden": false},
+                {"id": 7, "name": "Client 4", "parentId": 10, "isHidden": true},
+                {"id": 8, "name": "Client 5", "parentId": 20, "isHidden": false}
+              ]
+        }
+    },
+    "childrenByParentId": [
+        {
+            "input": {
+                "id": null,
+                "items": [
+                    {"id": 1, "name": "Company", "parentId": null, "isHidden": false},
+                    {"id": 10, "name": "References", "parentId": null, "isHidden": false},
+                    {"id": 14, "name": "Prices", "parentId": null, "isHidden": false},
+                    {"id": 2, "name": "About Us", "parentId": 1, "isHidden": false},
+                    {"id": 11, "name": "Contact", "parentId": 1, "isHidden": false},
+                    {"id": 3, "name": "Mission", "parentId": 1, "isHidden": false},
+                    {"id": 4, "name": "Team", "parentId": 2, "isHidden": false},
+                    {"id": 12, "name": "Goals", "parentId": 3, "isHidden": false},
+                    {"id": 13, "name": "2021", "parentId": 12, "isHidden": false},
+                    {"id": 5, "name": "Client 2", "parentId": 10, "isHidden": false},
+                    {"id": 6, "name": "Client 1", "parentId": 10, "isHidden": false},
+                    {"id": 7, "name": "Client 4", "parentId": 10, "isHidden": true},
+                    {"id": 8, "name": "Client 5", "parentId": 20, "isHidden": false}
+                ]
+            },
+            "output": [
+                {"id": 1, "name": "Company", "parentId": null, "isHidden": false},
+                {"id": 14, "name": "Prices", "parentId": null, "isHidden": false},
+                {"id": 10, "name": "References", "parentId": null, "isHidden": false}
+            ]
+        }, {
+            "input": {
+                "id": 10,
+                "items": [
+                    {"id": 1, "name": "Company", "parentId": null, "isHidden": false},
+                    {"id": 10, "name": "References", "parentId": null, "isHidden": false},
+                    {"id": 14, "name": "Prices", "parentId": null, "isHidden": false},
+                    {"id": 2, "name": "About Us", "parentId": 1, "isHidden": false},
+                    {"id": 11, "name": "Contact", "parentId": 1, "isHidden": false},
+                    {"id": 3, "name": "Mission", "parentId": 1, "isHidden": false},
+                    {"id": 4, "name": "Team", "parentId": 2, "isHidden": false},
+                    {"id": 12, "name": "Goals", "parentId": 3, "isHidden": false},
+                    {"id": 13, "name": "2021", "parentId": 12, "isHidden": false},
+                    {"id": 5, "name": "Client 2", "parentId": 10, "isHidden": false},
+                    {"id": 6, "name": "Client 1", "parentId": 10, "isHidden": false},
+                    {"id": 7, "name": "Client 4", "parentId": 10, "isHidden": true},
+                    {"id": 8, "name": "Client 5", "parentId": 20, "isHidden": false}
+                ]
+            },
+            "output": [
+                {"id": 6, "name": "Client 1", "parentId": 10, "isHidden": false},
+                {"id": 5, "name": "Client 2", "parentId": 10, "isHidden": false}
+            ]
+        }
+    ],
+    "sortByName": [
+        {
+            "input": [
+                {"id": 1, "name": "Company", "parentId": null, "isHidden": true},
+                {"id": 10, "name": "References", "parentId": null, "isHidden": false},
+                {"id": 14, "name": "Prices", "parentId": null, "isHidden": false}
+            ],
+            "output": [
+                {"id": 1, "name": "Company", "parentId": null, "isHidden": true},
+                {"id": 14, "name": "Prices", "parentId": null, "isHidden": false},
+                {"id": 10, "name": "References", "parentId": null, "isHidden": false}
+            ]
+        }, {
+            "input": [
+                {"name": "Company"},
+                {"name": "References"},
+                {"name": "Prices"},
+                {"name": "About Us"},
+                {"name": "2021"}
+            ],
+            "output": [
+                {"name": "2021"},
+                {"name": "About Us"},
+                {"name": "Company"},
+                {"name": "Prices"},
+                {"name": "References"}
+            ]
+        }
+    ],
+    "parseMenu": [
+        {
+            "input": [
+                {"id": 1, "name": "Company", "parentId": null, "isHidden": false},
+                {"id": 10, "name": "References", "parentId": null, "isHidden": false},
+                {"id": 14, "name": "Prices", "parentId": null, "isHidden": false},
+                {"id": 2, "name": "About Us", "parentId": 1, "isHidden": false},
+                {"id": 11, "name": "Contact", "parentId": 1, "isHidden": false},
+                {"id": 3, "name": "Mission", "parentId": 1, "isHidden": false},
+                {"id": 4, "name": "Team", "parentId": 2, "isHidden": false},
+                {"id": 12, "name": "Goals", "parentId": 3, "isHidden": false},
+                {"id": 13, "name": "2021", "parentId": 12, "isHidden": false},
+                {"id": 5, "name": "Client 2", "parentId": 10, "isHidden": false},
+                {"id": 6, "name": "Client 1", "parentId": 10, "isHidden": false},
+                {"id": 7, "name": "Client 4", "parentId": 10, "isHidden": true},
+                {"id": 8, "name": "Client 5", "parentId": 20, "isHidden": false}
+            ],
+            "output":  ".Company\n....About Us\n.......Team\n....Contact\n....Mission\n.......Goals\n..........2021\n.Prices\n.References\n....Client 1\n....Client 2\n"
+        }, {
+            "input": [
+                {"id": 1, "name": "Company", "parentId": null, "isHidden": false},
+                {"id": 10, "name": "References", "parentId": null, "isHidden": false},
+                {"id": 14, "name": "Prices", "parentId": null, "isHidden": false}
+            ],
+            "output": ".Company\n.Prices\n.References\n"
+        }, {
+            "input": [
+                {"id": 1, "name": "Company", "parentId": null, "isHidden": false},
+                {"id": 2, "name": "About Us", "parentId": 1, "isHidden": false},
+                {"id": 11, "name": "Contact", "parentId": 1, "isHidden": false},
+                {"id": 3, "name": "Mission", "parentId": 1, "isHidden": false}
+            ],
+            "output": ".Company\n....About Us\n....Contact\n....Mission\n"
+        }, {
+            "input": [
+                {"id": 1, "name": "Company", "parentId": null, "isHidden": false},
+                {"id": 2, "name": "About Us", "parentId": 1, "isHidden": false},
+                {"id": 11, "name": "Contact", "parentId": 2, "isHidden": false},
+                {"id": 3, "name": "Mission", "parentId": 11, "isHidden": false},
+                {"id": 12, "name": "Goals", "parentId": 3, "isHidden": false},
+                {"id": 13, "name": "2021", "parentId": 12, "isHidden": false},
+                {"id": 4, "name": "Team", "parentId": 13, "isHidden": false}
+            ],
+            "output": ".Company\n....About Us\n.......Contact\n..........Mission\n.............Goals\n................2021\n...................Team\n"
+        }, {
+            "input": [
+                {"id": 1, "name": "Company", "parentId": null, "isHidden": true},
+                {"id": 2, "name": "About Us", "parentId": 1, "isHidden": false},
+                {"id": 11, "name": "Contact", "parentId": 2, "isHidden": false},
+                {"id": 3, "name": "Mission", "parentId": 11, "isHidden": false},
+                {"id": 12, "name": "Goals", "parentId": 3, "isHidden": false},
+                {"id": 13, "name": "2021", "parentId": 12, "isHidden": false},
+                {"id": 4, "name": "Team", "parentId": 13, "isHidden": false},
+                {"id": 14, "name": "Prices", "parentId": null, "isHidden": false}
+            ],
+            "output": ".Prices"
+        }
+    ]
+}
